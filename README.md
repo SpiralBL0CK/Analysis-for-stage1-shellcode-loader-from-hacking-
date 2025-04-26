@@ -36,15 +36,7 @@ ok so startup and from startup to asm ? what happens in asm ? pic(position indep
 
 Now if we follow the flow we go into loader&#x20;
 
-<div>
-
-<figure><img src=".gitbook/assets/1 (5).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/1 (5).png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure></div>
 
 For now we will just skip LoadVtable as it ubiques and big and we will return to it after we finish analysing the rest of it's capabilities. Now we go and inspect DownloadAndDecryptTls.
 
@@ -52,19 +44,7 @@ For now we will just skip LoadVtable as it ubiques and big and we will return to
 
 DownloadAndDecryptTls
 
-<div>
-
-<figure><img src=".gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/1 (7).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/2 (2).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/3.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/1 (7).png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/2 (2).png" alt=""><figcaption></figcaption></figure></div>
 
 Now a neat thing i notice during debugging.
 
